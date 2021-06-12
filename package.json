@@ -1,0 +1,29 @@
+{
+  "name": "rainbow-canvas-server",
+  "version": "1.0.0",
+  "description": "Create Timelapse from Rainbow Canvas Data.",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon --trace-warnings app.js",
+    "start": "node app.js",
+    "build": "docker build -t stefftek/rainbow-server ."
+  },
+  "author": "SteffTek",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@stefftek/tick.js": "^1.1.0",
+    "canvas": "^2.8.0",
+    "mongoose": "^5.12.12",
+    "uuid": "^8.3.2",
+    "ws": "^7.4.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteffTek/Rainbow-Server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SteffTek/Rainbow-Server/issues"
+  },
+  "homepage": "https://github.com/SteffTek/Rainbow-Server#readme"
+}
